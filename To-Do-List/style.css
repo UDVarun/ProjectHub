@@ -1,0 +1,115 @@
+body{
+   
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:#22313f;
+}
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #100e0e;
+    background-color:  #132743;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.inputContainer{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    width: 100%;
+}
+div input{
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    text-decoration: none;
+    font-size: 16px;
+   
+}
+input[type="text"]::placeholder{
+   color: black;
+   font-size: 14px;
+   padding: 5px;
+   background-color: #fff;
+}
+.addTask{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#datetime{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 70vh;
+   
+}
+li span{
+    margin-right: 10px;
+    flex-grow: 1;
+    text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+}
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+li button{
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.completed{
+    text-decoration: line-through;
+}
